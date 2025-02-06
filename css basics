@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    h1{
+        color: blue;
+    }
+    #lukku{
+        color: antiquewhite;
+        border: solid;
+    }
+    h3,h4,h5{color:coral;
+    }
+    #piyush p{
+        color: blanchedalmond;
+    }
+    /* or we can write div p */
+
+
+
+
+</style>
+<body>
+    <h1>my name is rishabh</h1>
+    <h2 style="color: blueviolet;">lukku</h2>
+    <h3>piyush</h3>
+    <h4>pish</h4>
+    <h5>piyuh</h5>
+    <div id="piyush">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, nam.</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet.</p>
+
+</body>
+</html>
+<!-- preferences are inline>internal>external 
+ * universal sector has least priority--
+ id will be denoted as #
+ class as . 
+ id are unjique and classes are not unique
+ we can combine any selecter>
+ <!--  -->
