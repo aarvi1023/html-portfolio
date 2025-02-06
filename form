@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+   <form action="/contact-me">
+     <label for="Email">Username</label>
+     <input type="Text" placeholder="Email"><br>
+     <label for="password">Password: </label>
+     <input type="Password"><br>
+     <label for="Country">Select State:</label>
+     <select name="state" id="state">
+        <option value="UP">UP</option>
+        <option value="MP">MP</option>
+        <option value="Bihar">Bihar</option>
+        <option value="Other">Other</option>
+    </select><br>
+     <label for="date">Date:  </label>
+     <input type="date"><br>
+     <label for="male">Male:</label>
+     <input type="radio" id="male" Name="Gender" value="Male" ><br>
+     <label for="female">Female:</label>
+     <input type="radio" id="female" Name="Gender" value="Female" ><br>
+     <label for="other">Other:</label>
+     <input type="radio" id="other" Name="Gender" value="Other" ><br>
+     <label for="file"></label>
+     <input type="file"><br>
+     <label for="color"></label>
+     <input type="color"><br>
+     <label for="tshirt">tshirt</label>
+     <input type="checkbox" name="type" id="tshirt"><br>
+     <label for="shirt">shirt</label>
+     <input type="checkbox" name="type" id="shirt"><br>
+     <label for="trouser">trouser</label>
+     <input type="checkbox" name="type" id="Trouser"><br>
+     <label for="button">Cart:</label>
+     <input type="button" value="Add to cart"><br>
+     <label for="Suggestions">Suggestions:</label>
+     <textarea Name="Suggestions" id="Suggestions" rows="10" col="5"></textarea><br>
+     <input type="submit">
+   </form>
+</table>
+</body>
+</html>
