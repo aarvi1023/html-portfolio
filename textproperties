@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=settings" />
+
+</head>
+<style>
+    #box{
+        height: 200px;
+        width: 200px;
+        background-color: blueviolet;
+        text-decoration: underline;
+        text-decoration-style: wavy ;
+        text-decoration-color: red;
+    }
+    h1{
+        text-transform: capitalize;
+    }
+    /* we can transform text by using this */
+
+    h2{
+        line-height: 50px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    /* this makes difference between line 
+    we use so many font so thta if it not find that font it will use second one*/
+    h3{
+        font-size: 50px;
+        font-weight: 400;
+        font-style: italic;
+
+    }
+
+
+</style>
+<body>
+    <div id="box">this is box1</div>
+    <a id="link" href="#">this is a link</a> <br>
+     <!--# means we just make it link but it will not store anywhere and a is anchot tag and link comes automatic with under line and we can remove it by text decoration
+      -->
+    <h1>this is a text</h1>
+    <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam in, quia exercitationem excepturi ut, aspernatur natus expedita debitis sint labore ratione iste ullam veritatis? Nostrum libero vel eos quam cupiditate.</h2>
+    <h3>hi my name is rishabh</h3>
+    <span class="material-symbols-outlined">
+        settings
+        </span>
+        <!-- we will copy all things from google fonts website -->
+</body>
+</html>
