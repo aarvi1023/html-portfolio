@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        margin: 5px;
+    }
+    .box{
+        height: 100px;
+        width: 100px;
+    }
+    #box1{
+        background-color: antiquewhite;
+    }
+    #box2{
+        background-color: aquamarine;
+        display: none;
+    }
+    /* it will remove box2 and it will not take space also */
+    #box3{
+        background-color: salmon;
+        
+
+    }
+    /* div are block element they place another box in next line only and we can change it by display inline in universal tag*/
+
+</style>
+<body>
+    <div id="box1" class="box">Box1</div>
+    <div id="box2" class="box">Box2</div>
+    <div id="box3" class="box">Box3</div>
+
+
+
+</body>
+</html>
