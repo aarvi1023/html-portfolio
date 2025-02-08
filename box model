@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>Document</title>
+    
+
+</head>
+<title>Practice</title>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+    }
+    .pad{
+        height: 50px;
+        width: 500px;
+    }
+    /* content is 50px 50px and padding is so the net sqaure is of 60 px side  ; we can use only 5px one time and it will assume it for all 4 sides and same can be used for margin and border also ; padding is considered as content part but margin not so background color only wors till padding area*/
+    #first{
+        background-color: aquamarine;
+        margin: 10px 15px 50px 6px;
+        box-sizing: border-box;
+
+    }
+    /* box sizing is default taking border outside padding and it is set as content box but when we chose it as border box then boder comes before padding and surround contnet */
+    /* margin is the gap between two and whicever is max will be honour */
+    #second{
+        background-color: brown;
+        margin: 50px 10px 12px 5px;
+        border: 5px dashed blue;
+        border-radius: 30px;
+    }
+    /* we can dfine border also clockwise */
+    img{
+        height: 200px;
+        width: 250px;
+    }
+</style>
+
+
+
+
+
+
+</style>
+<body>
+    <div id="first" class="pad">first</div>
+    <div id="second" class="pad">second</div>
+
+    <main>
+       <img src="CSS-Box-Model.webp">
+    </main>
+
+
+</body>
+</html>
