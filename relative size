@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    #p1{
+        height: 100px;
+        width: 100px;
+        background-color: aqua;
+    }
+    #p2{
+        height: 40%;
+        width: 50%;
+        background-color: brown;
+    }
+    /* % takes the percent of parent one and when we change parent size it will afeect child aslo*/
+    #em{
+        font-size: 50px;
+        background-color: azure;
+        
+    }
+    #em2{
+        font-size: 2em;
+        background-color: cadetblue;
+        
+    }
+    /* em will multiply my number to parent size */
+    /* rem will take reference by size aor thing we give under *(universal) tag */
+    /* vh means full page hight and vw means full width and we can give sizw with this reference */
+    #vh{
+        height: 50vh;
+        background-color: darkgray;
+        width: 50vw;
+    }
+    #vw{
+        height: 50vh;
+        background-color: rgb(255, 53, 53);
+        width: 50vw;
+
+    }
+
+</style>
+<body>
+    <div id="p1" class="p">Box1
+        <div id="p2" class="p">Box2</div>
+    </div>
+
+    <div id="em">em1
+        <div id="em2">em2</div>
+    </div>
+
+    <div id="vh">boxvh
+    </div>
+    <div id="vw">boxvw</div>
+
+
+</body>
+</html>
