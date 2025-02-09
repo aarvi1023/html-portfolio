@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    *{
+        height: 200px;
+        width: 200px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .box{
+        margin: 5px;
+    }
+
+    #fixed{
+        background-color: aliceblue;
+        position: fixed;
+        top: 20px;
+        left: 90px;
+    }
+    /* it will also overlap and be fixed no matter how much you scroll */
+    
+    #static{
+        background-color: rgb(62, 135, 199);
+        position: static;
+        
+    }
+    /* no need to give top or left in static it will be static only and will come to top left */
+
+    #relative{
+        background-color: rgb(38, 73, 104);
+        position: relative;
+        top: 20px;
+        left: 90px;
+    }
+    /* they will shift from thier original position not from page top */
+
+
+    #absolute{
+        background-color:red;
+        position: absolute;
+        top: 200px;
+        left: 200px;
+    }
+    /* absolutre will take top and left from page top left corner and absolute aomes one level up and can overlap top other content also */
+    .b{
+        background-color: cadetblue;
+        margin: 5px;
+    }
+
+
+
+</style>
+<body>
+    <div id="fixed" class="box">fixed</div>
+    <div id="static"class="box">static</div>
+    <div id="relative"class="box">relative</div>
+    <div id="absolute"class="box">absolute</div>
+    <div id="box" class="b">box</div>
+    <div id="box" class="b">box</div>
+    <div id="box" class="b">box</div>
+    <div id="box" class="b">box</div>
+    <div id="box" class="b">box</div>
+    <div id="box" class="b">box</div>
+    <div id="box" class="b">box</div>
+    <div id="box" class="b">box</div>
+    
+
+    
+
+
+    
+
+    
+
+   
+    
+
+    
+
+
+
+
+</body>
+</html>
