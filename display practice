@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        padding: 5px;
+    }
+    #box1{
+        background-color: aquamarine;
+        height: 100px;
+        width: 100px;
+        border: solid;
+        border-radius: 50px;
+        text-align: center;
+        
+    }
+    a{
+        font-size: 30px;
+        text-decoration: none;
+        margin-left: 30px;
+        padding: 5px;
+    }
+
+    header{
+        background-color: pink;
+    }
+    .box{
+        height: 100px;
+        width: 100px;
+        background-color: bisque;
+        margin: 5px;
+        display: inline-block;
+    }
+    #container{
+        border: solid;
+    }
+    #box4{
+        position: fixed;
+    }
+    #box5{
+        right: 10px;
+        position: fixed;
+    }
+    footer{
+        bottom: 0px;
+        background-color: azure;
+    }
+
+</style>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Product</a>
+            <a href="#">Cart</a>
+            <a href="#">Wishlist</a>
+            <a href="#">Help</a>
+        </nav>
+    </header>
+    <main>
+            <article>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quae excepturi eligendi maxime vel, quos velit dolorem adipisci architecto, illo accusantium iste recusandae voluptas, perferendis dolores pariatur sint nemo debitis provident. Ipsum fugit totam facere ratione nesciunt perspiciatis odio provident molestias sunt, maiores assumenda, illum iure consequatur, alias in esse!
+            </article>
+            <div id="container">
+                <div id="box2" class="box">box2</div>
+                <div id="box3"class="box">box3</div>
+                <div id="box4"class="box">box4</div>
+            </div>
+            <div id="box5" class="box">box5</div>
+    </main>
+    <div id="box1">box1</div>
+
+    <footer>
+        <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi distinctio rerum debitis culpa nulla, sequi aspernatur explicabo ipsa laboriosam a molestiae animi nostrum architecto eaque vitae, autem itaque! Deserunt rem vero nihil nisi facere, enim quidem. Consequuntur, non aspernatur nulla hic inventore eos iure, sunt deserunt alias tenetur minus autem fugiat. Eos, dolorum nam similique corporis tenetur necessitatibus perspiciatis ut beatae assumenda quas quia natus laudantium, culpa deleniti debitis accusamus doloribus atque tempora ea quaerat blanditiis eaque minima! Quae veniam placeat repudiandae omnis non sequi accusamus asperiores, corrupti perspiciatis officia voluptate ad, minus praesentium, fugit necessitatibus labore ducimus pariatur reiciendis est amet! Voluptates nisi corporis unde iusto rem placeat nemo incidunt ut. Sequi minima perspiciatis architecto delectus. Iste eum debitis autem esse dignissimos quidem fugiat, minus sequi natus aliquid saepe maxime obcaecati eveniet suscipit ut tenetur blanditiis nam cumque? Officia illum delectus quidem doloremque aliquam quod ratione, asperiores esse vitae quaerat, commodi nobis voluptates repellat ea molestiae nulla quo laborum unde. Obcaecati repudiandae ex nam eum blanditiis molestias possimus fuga aliquam temporibus, quam ipsa sit iure nobis dignissimos tempore repellendus dicta veritatis nisi debitis pariatur, est ullam laborum quis? Dignissimos recusandae eaque necessitatibus nisi alias aperiam perferendis pariatur placeat libero deserunt dolore minus, fugiat iste obcaecati est aliquid, iusto incidunt optio? Sapiente labore ducimus eligendi unde doloribus quidem, eum consequatur maiores, aliquid repellendus dolor totam? Officiis, veniam? Delectus distinctio fugit at optio quam numquam architecto neque. Inventore, architecto consequuntur? Consequuntur exercitationem harum soluta repellat sunt aliquam enim veritatis corrupti quis corporis. Neque pariatur ipsa minus obcaecati voluptatem deserunt eligendi beatae debitis ullam ipsum, perferendis ad at ratione iure modi commodi ab sed. Incidunt cupiditate recusandae, accusantium commodi ab praesentium debitis provident placeat voluptatum hic perspiciatis eum sunt dolorum nesciunt deserunt vel nobis mollitia, modi a quis! Corrupti aperiam aliquid earum, odio atque adipisci laborum a ad harum nam neque doloribus voluptatibus deserunt? Amet in iure maxime doloribus, delectus qui, ducimus ab similique ullam illo, provident fuga repellat! Nostrum iste sint corporis possimus est velit laudantium totam? Error inventore modi cupiditate enim hic reiciendis mollitia officia id sint odio excepturi, ab, quibusdam fugiat perspiciatis optio facere autem omnis saepe non. Sed, provident qui cupiditate error aperiam architecto soluta in repellat ullam deserunt nam ut. Sint iusto provident quos error a quibusdam repellat eveniet in tenetur illo minima nesciunt totam odio ut vel nam excepturi nisi iure, accusantium soluta. Cupiditate odit reprehenderit optio, quos voluptatem corporis sapiente molestiae laudantium nesciunt. Culpa nihil animi consequatur quo ratione blanditiis unde dolores illo laudantium! Fugiat sit quibusdam obcaecati, officiis possimus dignissimos mollitia ab error voluptates totam aliquam, perferendis ipsum. Nemo a explicabo sint incidunt amet veniam recusandae, at sunt dignissimos ad aliquam nisi fuga. Itaque non esse possimus voluptatem quod accusantium qui veritatis necessitatibus cum, quam architecto sint deleniti vitae doloribus soluta neque ratione libero odio rem accusamus? Nesciunt blanditiis, quisquam illum obcaecati reiciendis provident delectus dolore nulla quaerat inventore beatae eos ex? Sit beatae nam praesentium temporibus recusandae, sint corporis. Sunt iste officiis voluptatibus.
+        </p>
+    </footer>
+
+
+</body>
+</html>
