@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    /* these are the property on flex container */
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #container{
+        background-color: azure;
+        height: 200px;
+        width: 200px;
+
+    }
+    .box{
+        width: 50px;   
+        height: 50px;
+        display: inline;
+        
+    }
+    #box1{
+        float: left;
+        margin: 5px;
+        background-color: bisque;
+    }
+    #box2{
+        float: right;
+        background-color: red;
+        margin: 5px;
+    }
+    #containerflex{
+        background-color: rgb(42, 214, 42);
+        height: 300px;
+        width: 300px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .flex{
+        width: 5000000px;   
+        height: 50px;
+        background-color: blueviolet;
+        margin: 5px;
+
+    }
+    #flex2{
+        flex-shrink: 4;
+        order: 4;
+    }
+    /* it will take position according to order */
+    /* flex grow will be reverse of flex shrink */
+    /* flex shrink 4 means it will shrink it by 4 times compared to other and wrap is by default no wrap so they are shrinking  and 0 means it will not shrink and will be actual size*/
+    /* flex has by default row directuon and flex can only arrange boxes in direction and they come in same coulmn or row for that it will shrink  and it will honour only mrgin and padding but not width*/
+    h1{
+        text-align: center;
+    }
+    .jc{
+        width: 50px;   
+        height: 50px;
+        background-color: blueviolet;
+        margin: 5px;
+
+    }
+    #jc{
+        background-color: rgb(42, 214, 42);
+        height: 300px;
+        width: 300px;
+        margin: 5px;
+        border: solid;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    /* justify content can be many type and it will work in main axis (horizontal) and to work in certical(cross) we need align items property  */
+    #jc2{
+        align-self: flex-end;
+    }
+    /* align self has the priority over aloign itemns and it will work on personal items and across cross axis */
+
+    #wrap{
+        background-color: rgb(42, 214, 42);
+        height: 300px;
+        width: 300px;
+        margin: 5px;
+        border: solid;
+        display: flex;
+        flex-wrap: wrap-reverse;
+        align-content: center;
+    }
+    /* align content will kill space between cross axis */
+    .w{
+        width: 100px;   
+        height: 50px;
+        background-color: blueviolet;
+        margin: 5px;}
+
+
+</style>
+<body>
+    <h1>Float</h1>
+    <div id="container">
+        <div id="box1" class="box">box1</div>
+        <div id="box2" class="box">box2</div>
+    </div>
+
+    <h1>Flexbox</h1>
+    <div id="containerflex">
+        <div id="flex1" class="flex">flex1</div>
+        <div id="flex2"class="flex">flex2</div>
+        <div id="flex3"class="flex">flex3</div>
+        <div id="flex4"class="flex">flex4</div>
+    </div>
+
+    <h1>justify content and align items</h1>
+    <div id="jc">
+        <div id="jc1" class="jc">flex1</div>
+        <div id="jc2"class="jc">flex2</div>
+        <div id="jc3"class="jc">flex3</div>
+        <div id="jc4"class="jc">flex4</div>
+    </div>
+
+    <h1>flex wrap and align content</h1>
+    <p>It will wrap and not shrink and it can be of many types like no wrap(it will be default and shrink),wrap it will send element in 2nd row and wrap reverse (it will do wrap in reverse)</p>
+    <div id="wrap">
+        <div id="wrap1" class="w">wrap1</div>
+        <div id="wrap2"class="w">wrap2</div>
+        <div id="wrap3"class="w">wrap3</div>
+        <div id="wrap4"class="w">wrap4</div>
+    </div>
+
+</body>
+</html>
