@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    .b{
+        
+        background-color: antiquewhite;
+        height: 100px;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 100px;
+        left: 100px;
+        border-radius: 5px;
+        border: solid;
+        transition: all 1s ease-in-out;
+        }
+    #box:hover{
+        transform: rotate(45deg);
+        background-color: blue;
+    }
+    /* we can also use rotatex(45deg)
+    or rotatey(45deg) or rotate which is z by defauly*/
+
+    #box1:hover{
+        transform: scale(2);
+        background-color: blue;
+    }
+
+    #box2:hover{
+        transform: translate(200px,200px);
+        background-color: aqua;
+    }
+    /* skew is also another type of transform  */
+
+
+
+
+</style>
+<body>
+    <div id="box" class="b">rotate</div>
+    <div id="box1" class="b">scale</div>
+    <div id="box2" class="b">translate</div>
+
+</body>
+</html>
