@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    .btn{
+        border: solid;
+        background-color: aquamarine;
+        height: 50px;
+        width: 100px;
+        margin: 10px;
+        padding: 0;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .btn:hover{
+        height: 80px;
+        width: 150px;
+        background-color: blue;
+    }
+    .btn:active{
+        background-color: red;
+    }
+
+    .ts{
+        border: solid;
+        background-color: aquamarine;
+        height: 50px;
+        width: 100px;
+        margin: 10px;
+        padding: 0;
+        border-radius: 10px;
+        text-align: center;
+
+        /* transition-property: all; 
+        transition-duration: 1s;
+        transition-timing-function: ease-in-out;
+        there are many type of transition
+        /* transition-delay: 1s; */
+        transition: all 1s ease-in-out 1s;
+       /* we can do all in one place only */
+    }
+
+    .ts:hover{
+        height: 80px;
+        width: 150px;
+        background-color: blue;
+    }
+    .ts:active{
+        background-color: red;
+    }
+
+   
+
+</style>
+
+<body>
+    <div class="btn">Click me</div>
+    <div class="ts">Download</div>
+
+</body>
+</html>
