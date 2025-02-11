@@ -1,0 +1,70 @@
+<!-- used to create responsive websites -->
+ <!-- syntax @media screen(condition){css rules} -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    #box{
+        background-color: antiquewhite;
+        height: 100px;
+        width: 100px;
+        padding: 5px;
+        margin: 5px;
+    }
+    @media screen and (max-width:300px) {
+        #box{
+            background-color: aqua;
+            border: 5px red;
+        }
+        
+    }
+    /* when the width of screen will be less than or equal to 300ox box colour chamnged to aqua */
+    /* we usulaay dont do it on height as mobiles and all screen are scrollable */
+    #box1{
+        background-color: antiquewhite;
+        height: 100px;
+        width: 100px;
+        padding: 5px;
+        margin: 5px;
+    }
+    @media screen and (min-width:300px){
+        #box1{
+            height: 150px;
+            width: 150px;
+        }
+        
+    }
+    /* means when the width beacme 300px or more box2 height change to 150px 150px means when we shift to bigger screen */
+
+    #box2{
+        background-color: antiquewhite;
+        height: 100px;
+        width: 100px;
+        padding: 5px;
+        margin: 5px;
+    }
+    @media  screen and (min-width:200px) and (max-width:300px) {
+        #box2{
+            background-color: brown;
+            border-radius: 50%;
+            border: red;
+            text-align: center;
+        }
+        
+    }
+    /* we can cobine also */
+
+</style>
+<body>
+    <div id="box">Box</div>
+    <div id="box1">box1</div>
+    <div id="box2">box2</div>
+
+</body>
+</html>
