@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    .button{
+        height: 50px;
+        width: 200px;
+    }
+    #wishlist{
+        background-color: whitesmoke;
+        border-radius: 10px;
+        margin: 5px;
+        padding: 5px;
+    }
+    #bag{
+        background-color: greenyellow;
+        border-radius: 5px;
+        border: none;
+        margin: 5px;
+        padding: 5px;
+    }
+
+
+</style>
+
+<body>
+    <h1>Shopping cart</h1>
+    <button id="wishlist" class="button" onclick="alert('add to wishlist')">Wishlist</button></br>
+    <button id="bag" class="button" onclick="alert('added to bag')">bag</button>
+
+
+<script>
+    alert('welcome')
+
+    
+
+</script>    
+</body>
+</html>
