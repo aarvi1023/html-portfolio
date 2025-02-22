@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TruthyandFalsy</title>
+</head>
+<body>
+
+
+    <script>
+        // let age='';
+        // if age is "",0,null,NaN,false or empty string then it is considered as undifeind age and result will br=e else part . these are considered as false value
+        // otgher than falsy all are truthy
+        // console.log(age)
+        // if (age){
+        //     console.log('you have valid age')
+        // }
+        // else{
+        //     console.log('you are avatar')
+        // }
+
+        // terniry operators
+        // let age = 11;
+        // let result;
+        // if (age > 18){
+        //     result = 'adult'
+        // }
+        // else{
+        //     result='kid'
+        // }
+        // console.log(result)
+        // this all can be done 1 line
+        // let age = 11;
+        // let result = age > 18 ? 'adult':'kid'
+        // // works on true or false condition
+        // console.log(result)
+        
+
+        // gaurd operaotr
+        let age ='';
+        // if  we give age any falsy value then it will use 18 as age
+        let finalAge = age || 18;
+        console.log(age)
+        console.log(finalAge)
+    </script>
+</body>
+</html>
